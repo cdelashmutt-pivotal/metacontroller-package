@@ -1,0 +1,7 @@
+apiVersion: kbld.k14s.io/v1alpha1
+kind: Config
+minimumRequiredVersion: 0.30.0
+overrides:
+- image: metacontrollerio/metacontroller:v2.0.12
+  newImage: index.docker.io/metacontrollerio/metacontroller@sha256:9ddfaa8638268c44d9ea4d463c487745616f3adf0314ba4c311c8c4690a4bf63
+  preresolved: true
